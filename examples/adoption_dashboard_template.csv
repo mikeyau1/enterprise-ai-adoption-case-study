@@ -1,0 +1,2 @@
+reporting_period,market,function,use_case_id,eligible_users,activated_users,weekly_active_users,trained_users,workflows_completed,baseline_cycle_minutes,current_cycle_minutes,quality_error_rate,escalation_rate,policy_exceptions,validated_hours_released,user_confidence_score,status,comment
+2026-Q3,Example market,Operations,UC-001,100,0,0,0,0,30,,0,0,0,0,,PLANNING,Illustrative row only
