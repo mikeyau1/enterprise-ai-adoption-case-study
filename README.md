@@ -4,6 +4,14 @@ A governance-first portfolio case study showing how an experimental AI-assisted 
 
 > **Portfolio scope:** This repository is a sanitized case study. It contains no proprietary trading logic, market data, protected payloads, private research history, credentials or commercial publications.
 
+## At a glance
+
+- **Problem addressed:** moving from individual AI experimentation to governed enterprise adoption
+- **Core capabilities:** operating-model design, responsible AI, multi-agent controls, change management and measurement
+- **Regional lens:** common Asia governance with local-market regulation, language and workflow adaptation
+- **Human control:** AI agents are read-only; the parent process writes; humans approve releases
+- **Recruiter walkthrough:** [`docs/10_portfolio_talking_points.md`](docs/10_portfolio_talking_points.md)
+
 ## Why this project exists
 
 Using generative AI successfully at enterprise scale is not mainly a prompting problem. It is an operating-model problem involving governance, ownership, change management, user capability, risk controls and measurable business outcomes.
@@ -72,6 +80,7 @@ flowchart TD
 - [`docs/07_asia_localization.md`](docs/07_asia_localization.md) — regional-core and local-market model
 - [`docs/08_measurement_framework.md`](docs/08_measurement_framework.md) — adoption and value metrics
 - [`docs/09_lessons_learned.md`](docs/09_lessons_learned.md) — practical lessons and limitations
+- [`docs/10_portfolio_talking_points.md`](docs/10_portfolio_talking_points.md) — interview-ready narrative and claim boundaries
 - [`examples/`](examples/) — reusable governance and adoption templates
 - [`demo/read_only_multi_agent_workflow/`](demo/read_only_multi_agent_workflow/) — sanitized workflow walkthrough
 
