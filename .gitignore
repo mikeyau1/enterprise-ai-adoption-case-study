@@ -1,0 +1,30 @@
+# Operating-system files
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+*.swp
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.*
+secrets.*
+
+# Data and generated outputs
+data/
+artifacts/
+outputs/
+*.log
