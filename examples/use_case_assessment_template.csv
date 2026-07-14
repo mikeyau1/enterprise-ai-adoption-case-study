@@ -1,0 +1,2 @@
+use_case_id,use_case_name,business_owner,user_problem,workflow_frequency,business_value,adoption_feasibility,data_sensitivity,regulatory_impact,human_oversight,reusability,measurement_readiness,implementation_effort,risk_rating,recommendation,notes
+UC-001,Example internal meeting-summary assistant,Example owner,Manual summarisation delays follow-up,High,Medium,High,Internal,Low,Required,High,High,Low,Low,PILOT_CANDIDATE,Illustrative row only
