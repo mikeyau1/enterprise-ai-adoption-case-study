@@ -1,0 +1,6 @@
+stakeholder_group,example_role,interest,influence,primary_need,engagement_method,owner,frequency,risk_or_concern,success_signal
+Executive sponsor,Regional executive,High,High,Value and risk visibility,Steering review,AI adoption lead,Monthly,Unclear benefit,Decisions made using agreed metrics
+Business owner,Function head,High,High,Workflow outcome,Working session,Use-case lead,Biweekly,Weak ownership,Named owner and active benefit tracking
+Risk and compliance,Control partner,High,High,Control evidence,Risk review,Risk lead,At each gate,Unsupported use,Clear approval or documented stop
+Local market,Market lead,High,Medium,Local fit and regulation,Localisation workshop,Regional adoption lead,Per rollout wave,One-size-fits-all design,Local readiness confirmed
+End users,Workflow users,High,Medium,Practical value and support,Pilot cohort and office hours,Change lead,Weekly during pilot,Low trust,Sustained quality-adjusted use
