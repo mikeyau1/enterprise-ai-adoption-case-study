@@ -1,0 +1,33 @@
+task_contract:
+  id: TASK-EXAMPLE
+  purpose: Demonstrate a bounded read-only AI-agent task
+  accountable_human: Replace with reviewer
+  agent_role: evidence_collector
+  model_configuration:
+    model: explicitly-approved-model
+    reasoning_effort: explicitly-approved-level
+    automatic_model_selection: false
+  permissions:
+    repository_write: false
+    nested_agents: false
+    scope_expansion: false
+    protected_data_access: false
+  evidence_allowlist:
+    - docs/approved_source_1.md
+    - docs/approved_source_2.md
+  prohibited_actions:
+    - modify files
+    - create branches or commits
+    - access unlisted data
+    - approve its own output
+  required_output:
+    evidence_found: []
+    evidence_missing: []
+    inferences: []
+    blockers: []
+    writes_attempted: false
+  stop_conditions:
+    - required evidence is missing
+    - evidence is contradictory
+    - another permission is required
+  final_authority: human_reviewer
