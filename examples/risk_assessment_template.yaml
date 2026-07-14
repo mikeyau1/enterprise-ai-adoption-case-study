@@ -1,0 +1,41 @@
+use_case:
+  id: UC-XXX
+  name: Replace with approved use-case name
+  business_owner: Replace with accountable owner
+  intended_users: []
+  intended_outcome: Replace with measurable outcome
+
+risk_assessment:
+  data:
+    classification: public | internal | confidential | restricted
+    personal_data: false
+    cross_border_processing: false
+    approved_sources: []
+    prohibited_sources: []
+  model:
+    provider: Replace with approved provider
+    model: Replace with approved model
+    limitations: []
+    explainability_required: true
+  decision:
+    customer_impact: none | indirect | direct
+    financial_impact: none | indirect | direct
+    regulated_decision: false
+    human_review_required: true
+  operations:
+    failure_mode: fail_closed
+    incident_route: Replace with escalation route
+    rollback_plan: Replace with rollback plan
+
+controls:
+  input_validation: []
+  output_validation: []
+  monitoring_metrics: []
+  user_training: []
+  approval_evidence: []
+
+approval:
+  risk_rating: low | moderate | high | prohibited
+  recommendation: hold | pilot | approve | reject
+  approvers: []
+  review_date: YYYY-MM-DD
